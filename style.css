@@ -1,0 +1,90 @@
+*
+
+{
+
+  margin: 0;
+
+  padding :0;
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+    font-size: 15pt;
+
+    min-height :100vh;
+
+    width :min(100%,480px);
+
+    transition :all  .2s ease-in-out ;
+
+    font-family: 'Varela Round', sans-serif;
+
+    background:#252525 ;
+
+    display :flex ;
+
+    justify-content :center ;
+
+    align-items :center ;
+
+    flex-direction :column ;
+
+}
+
+.like-btn
+
+{
+
+  display :block ;
+
+  font-size :5em ;
+
+  outline :none ;
+
+  border :none;
+
+  color: rgba(183,185,190,.1);
+
+  background :transparent ;
+
+  transition : color .2s ease-in-out ;
+
+}
+
+.counter 
+
+{
+
+  font-size :1.5em ;
+
+  color: #FFFFFF ;
+
+}
+
+.like-btn.liked 
+
+{
+
+  color: rgba(50,203,77);
+
+  transition : color .2s ease-in-out ;
+
+}
+
+.like-btn.liked{
+
+  font-variation-settings:
+
+  'FILL' 5,
+
+  'wght' 400,
+
+  'GRAD' 5,
+
+  'opsz' 48
+
+}
+
